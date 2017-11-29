@@ -1,0 +1,14 @@
+[package]
+name = "tls-demo"
+version = "0.1.0"
+authors = ["ZhiFeng Hu <huzhifeng@douyu.tv>"]
+
+[dependencies]
+hyper-tls = "0.1.2"
+futures = "0.1.11"
+native-tls = "0.1"
+hyper = "0.11"
+tokio-core = "0.1.6"
+tokio-io = "0.1"
+tokio-service = "0.1"
+tokio-tls = "0.1.3"
